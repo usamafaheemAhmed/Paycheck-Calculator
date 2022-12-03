@@ -1,0 +1,25 @@
+thead{
+    border-bottom: 2px solid #43B749;
+}
+.form-control{
+    width: 100px;
+}
+.custom-select{
+    width: 100px;
+}
+#tax{
+    width: 128px;
+
+}
+.btn-success{
+    background-color: #004A31;
+    border-color: #004A31;
+    color: #ffffff;
+    border-radius: 0px;
+}
+#hoursWorkedPerWeek{
+    padding-left: 45px;
+}
+#effactiveTex{
+    padding-left: 80px;
+}
