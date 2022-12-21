@@ -1,25 +1,42 @@
 thead{
     border-bottom: 2px solid #43B749;
 }
-.form-control{
-    width: 100px;
-}
-.custom-select{
-    width: 100px;
-}
-#tax{
-    width: 128px;
 
-}
+
 .btn-success{
     background-color: #004A31;
     border-color: #004A31;
     color: #ffffff;
     border-radius: 0px;
 }
-#hoursWorkedPerWeek{
-    padding-left: 45px;
+
+.form-control{
+    width: 70%;
 }
-#effactiveTex{
-    padding-left: 80px;
+.custom-select{
+    width: 70%;
 }
+#hoursWorkedPerYear{
+    margin-left: 12%;
+    width: 33%;
+}
+#hoursWorkedPerMonth{
+    margin-left: 12%;
+    width: 33%;
+}
+#hoursWorkedPerWeek1{
+    margin-left: 12%;
+    width: 33%;
+}
+
+
+@media screen and (max-width: 768px) {
+   #border{
+    margin-right: 30px;
+   }
+   .table-responsive{
+    margin-right: 15px;
+    margin-left: 20px;
+   }
+}
+    
